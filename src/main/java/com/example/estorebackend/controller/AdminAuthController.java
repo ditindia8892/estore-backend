@@ -16,7 +16,7 @@ import com.example.estorebackend.model.Admins;
 import com.example.estorebackend.model.Response;
 import com.example.estorebackend.repository.AdminsRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/adminauth")
 public class AdminAuthController {
